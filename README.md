@@ -15,6 +15,8 @@
 ## 使用
 
 - 点右上角 **Use this template** 按钮复制本 GitHub 仓库，**:warning: 千万不要 Fork，因为 fork 项目的动态并不会让你变绿 :warning:**
+- 到 Settings - Secrets 里面添加两个 Secrets，一个是 `EMAIL`，写的是你之后每天提交的 `user.email`;另一个是 `NAME`，写的是你之后每天提交的 `user.name`。一定要设置，否则不算你的提交
+- 如果你找不到 **Use this template** 选项，也可以 Fork，Fork 的话记得在 Github Actions 中打开启用即可
 - 修改 [ci.yml 文件的第 19、20 行](https://github.com/justjavac/auto-green/blob/master/.github/workflows/ci.yml#L19) 为自己的 GitHub 账号和昵称
 - (可选) 你可以通过修改 [ci.yml 文件的第 8 行](https://github.com/justjavac/auto-green/blob/master/.github/workflows/ci.yml#L8)来调整频率
 
